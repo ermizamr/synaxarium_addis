@@ -1,0 +1,46 @@
+name: synaxarium_addis
+description: A church-focused business app for finding daily feasts and nearby churches in Addis Ababa
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  # Local persistence
+  shared_preferences: ^2.2.3
+
+  # Device identifiers for binding access to hardware
+  device_info_plus: ^11.1.0
+  uuid: ^4.5.1
+  supabase_flutter: ^2.0.0
+
+  # Google Maps integration
+  url_launcher: ^6.2.4
+
+  # Image picker
+  image_picker: ^1.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Uncomment and add fonts for Amharic/Geʽez support
+  # fonts:
+  #   - family: NotoSansEthiopic
+  #     fonts:
+  #       - asset: fonts/NotoSansEthiopic-Regular.ttf
+  #       - asset: fonts/NotoSansEthiopic-Medium.ttf
+  #         weight: 500
+  #       - asset: fonts/NotoSansEthiopic-Bold.ttf
+  #         weight: 700

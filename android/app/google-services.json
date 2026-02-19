@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "730074343038",
+    "project_id": "synaxarium-addis",
+    "storage_bucket": "synaxarium-addis.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730074343038:android:726462568413aa06785a2f",
+        "android_client_info": {
+          "package_name": "com.synaxarium.addis"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp7LEHwcDaQlKwM6E0rRsXE54eXNgEPFA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
