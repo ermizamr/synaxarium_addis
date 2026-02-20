@@ -252,7 +252,7 @@ class _HomeScreenState extends State<HomeScreen> {
       final position = await Geolocator.getCurrentPosition(
         locationSettings: const LocationSettings(
           accuracy: LocationAccuracy.best,
-          timeLimit: Duration(seconds: 20),
+          timeLimit: Duration(seconds: 60),
         ),
       );
 
